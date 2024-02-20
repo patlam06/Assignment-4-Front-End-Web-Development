@@ -1,0 +1,46 @@
+body{
+  background:SeaShell;
+  font-family: "Verdana", sans-serif;
+  height: 100%;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  float: left;
+  padding: 8px;
+}
+
+li a {
+  display: block;
+  color: lightslategray;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  border-bottom: 3px solid transparent;
+}
+
+li a:hover {
+  border-bottom: 3px solid darkolivegreen;
+}
+
+li a:active {
+  border-bottom: 3px solid darkolivegreen;
+}
+
+.display {
+  font-size: 9vw;
+  color: lightslategray;
+  position: absolute;
+  right: 15%;
+}
